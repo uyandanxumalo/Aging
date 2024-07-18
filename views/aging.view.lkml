@@ -26,15 +26,18 @@ view: aging {
     sql: ${TABLE}.type_of_kpi ;;
   }
   dimension: value {
-    type: number
+    type: string
     sql: ${TABLE}.value ;;
   }
   dimension: year {
-    type: date
+    type: number
     sql: ${TABLE}.year ;;
   }
 
-
+dimension: value_number {
+  type: number
+  sql: CAST(${TABLE}.value AS INTEGER) ;;
+}
   measure: sum_values  {
     type: sum
     sql: ${value} ;;
