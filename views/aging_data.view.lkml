@@ -1,5 +1,5 @@
-view: aging {
-  sql_table_name: `MODELLING.Aging` ;;
+view: aging_data {
+  sql_table_name: `jutomate-aging.MODELLING.Aging_data` ;;
 
   dimension: field {
     type: string
@@ -26,25 +26,13 @@ view: aging {
     sql: ${TABLE}.type_of_kpi ;;
   }
   dimension: value {
-    type: string
+    type: number
     sql: ${TABLE}.value ;;
   }
   dimension: year {
     type: number
     sql: ${TABLE}.year ;;
   }
-
-# dimension: value_number {
-#   type: number
-#   sql: CAST(${TABLE}.value AS FLOAT64) ;;
-# }
-#   measure: sum_values  {
-#     type: sum
-#     sql: CAST(${value} AS FLOAT64) ;;
-#     value_format: "decimal_3"
-#   }
-
-
   measure: count {
     type: count
   }
