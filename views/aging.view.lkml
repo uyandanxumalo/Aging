@@ -36,7 +36,7 @@ view: aging {
 
 dimension: value_number {
   type: number
-  sql: CAST(${TABLE}.value AS FLOAT64) ;;
+  sql: CAST(${TABLE}.value AS DOUBLE) ;;
 }
   measure: sum_values  {
     type: sum
