@@ -33,6 +33,15 @@ view: aging {
     type: number
     sql: ${TABLE}.year ;;
   }
+
+
+  measure: sum_values  {
+    type: sum
+    sql: ${value} ;;
+  }
+
+
+
   measure: count {
     type: count
   }
