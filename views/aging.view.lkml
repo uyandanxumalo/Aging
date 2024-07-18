@@ -40,7 +40,7 @@ dimension: value_number {
 }
   measure: sum_values  {
     type: sum
-    sql: ${value} ;;
+    sql: ${value_number} ;;
   }
 
 
