@@ -40,6 +40,11 @@ view: aging_data {
     value_format: "0"
   }
 
+  dimension: values_measure_filtered {
+    type: number
+    sql: ${TABLE}.values_measure != 0 ;;
+  }
+
   measure: count {
     type: count
   }
