@@ -10,5 +10,4 @@ datagroup: aging_default_datagroup {
 
 persist_with: aging_default_datagroup
 
-explore: aging {}
 explore: aging_data {}
