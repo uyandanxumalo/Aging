@@ -33,12 +33,12 @@ view: aging_data {
     type: number
     sql: ${TABLE}.year ;;
   }
+
   measure: values_measure {
     type: sum
     sql: ${TABLE}.value ;;
     value_format: "0"
-
- }
+}
   measure: count {
     type: count
   }
