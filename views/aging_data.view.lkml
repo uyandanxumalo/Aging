@@ -48,4 +48,9 @@ view: aging_data {
   measure: count {
     type: count
   }
+
+  # measure: non_null_non_zero_sum {
+  #   type: number
+  #   sql: SUM(CASE WHEN ${value} IS NOT NULL AND ${value} != 0 THEN ${value} ELSE NULL END) ;;
+  # }
 }
