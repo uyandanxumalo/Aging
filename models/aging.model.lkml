@@ -10,3 +10,5 @@ datagroup: aging_default_datagroup {
 
 persist_with: aging_default_datagroup
 explore: aging_data {}
+explore: combined_city_data {}
+explore: combined_no_city {}
