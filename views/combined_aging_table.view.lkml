@@ -41,6 +41,11 @@ view: combined_aging_table {
     type: number
     sql: ${TABLE}.year ;;
   }
+  measure: total_value {
+    type: sum
+    sql: ${value} ;;
+
+  }
   measure: count {
     type: count
   }
