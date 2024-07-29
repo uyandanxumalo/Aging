@@ -44,4 +44,10 @@ view: combined_no_city {
   measure: count {
     type: count
   }
+  measure: total_value {
+    type: sum
+    sql: ${value} ;;
+    value_format: "0"
+    filters: [value: "NULL"]
+}
 }
