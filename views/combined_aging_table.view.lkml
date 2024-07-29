@@ -45,6 +45,7 @@ view: combined_aging_table {
     type: sum
     sql: ${value} ;;
     value_format: "0"
+    filters: [value: "NULL"]
 
   }
   measure: count {
