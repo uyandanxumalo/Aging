@@ -44,4 +44,8 @@ view: vw_cities_districts {
   measure: count {
     type: count
   }
+  measure: sum_value {
+    type: sum
+    sql: ${value} ;;
+  }
 }
