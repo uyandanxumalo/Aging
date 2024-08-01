@@ -12,3 +12,4 @@ persist_with: aging_default_datagroup
 explore: aging_data {}
 explore: combined_aging_table {}
 explore: coombined_data_no_city {}
+explore: vw_cities_districts {}
