@@ -64,5 +64,6 @@ view: vw_main_indicators {
   measure: sum_value {
     type: sum
     sql: ${TABLE}.value ;;
+    value_format: "0.0"
   }
 }
