@@ -38,7 +38,7 @@ view: aging_data {
     type: sum
     sql: ${TABLE}.value ;;
     value_format: "0"
-  }
+    }
 
   # dimension: values_measure_filtered {
   #   type: number
