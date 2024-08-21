@@ -10,6 +10,12 @@ datagroup: aging_default_datagroup {
 
 persist_with: aging_default_datagroup
 
+explore: vw_data_by_gender_age_group {}
+
+explore: vw_geography {}
+
+#######################################################################
+
 explore: aging_data {}
 
 explore: combined_aging_table {}
