@@ -55,7 +55,7 @@ view: vw_data_by_gender_age_group {
 
   dimension: year_string {
     type: string
-    sql: ${TABLE}.year ;;
+    sql: ${TABLE}.year_string ;;
   }
 
   #
