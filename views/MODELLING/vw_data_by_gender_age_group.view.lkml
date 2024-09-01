@@ -53,6 +53,11 @@ view: vw_data_by_gender_age_group {
     sql: ${TABLE}.year ;;
   }
 
+  dimension: year_string {
+    type: string
+    sql: ${TABLE}.year ;;
+  }
+
   #
   ## measures:
   #
