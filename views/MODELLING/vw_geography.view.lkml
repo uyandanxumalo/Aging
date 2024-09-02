@@ -53,6 +53,11 @@ view: vw_geography {
     sql: ${TABLE}.year ;;
   }
 
+  dimension: year_string {
+    type: string
+    sql: ${TABLE}.year_string ;;
+  }
+
   #
   ## measures:
   #
