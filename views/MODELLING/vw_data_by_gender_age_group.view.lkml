@@ -15,6 +15,11 @@ view: vw_data_by_gender_age_group {
     sql: ${TABLE}.kpi ;;
   }
 
+  dimension: kpi_detail {
+    type: string
+    sql: ${TABLE}.kpi_detail ;;
+  }
+
   dimension: measure_unit {
     type: string
     sql: ${TABLE}.measure_unit ;;
