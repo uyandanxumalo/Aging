@@ -14,6 +14,8 @@ explore: vw_data_by_gender_age_group {}
 
 explore: vw_geography {}
 
+explore: vw_global_comparison {}
+
 #######################################################################
 
 explore: aging_data {}
@@ -35,5 +37,3 @@ explore: vw_population {}
 explore: vw_city_district {}
 
 explore: vw_data_details {}
-
-explore: vw_global_comparison {}
