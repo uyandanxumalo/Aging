@@ -35,3 +35,5 @@ explore: vw_population {}
 explore: vw_city_district {}
 
 explore: vw_data_details {}
+
+explore: vw_global_comparison {}
