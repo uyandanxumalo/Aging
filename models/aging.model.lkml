@@ -16,7 +16,7 @@ explore: vw_geography {}
 
 explore: vw_global_comparison {}
 
-explore: raw_data_trends {}
+explore: vw_data_trends {}
 
 #######################################################################
 

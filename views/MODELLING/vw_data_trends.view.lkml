@@ -1,23 +1,18 @@
-view: raw_data_trends {
-  sql_table_name: `jutomate-aging.INGESTION.raw_data_trends` ;;
+view: vw_data_trends {
+  sql_table_name: `jutomate-aging.MODELLING.vw_data_trends` ;;
 
   #
   ## dimensions:
   #
 
-  dimension: base_year_trend_change {
-    type: number
-    sql: ${TABLE}.base_year_trend_change ;;
+  dimension: color {
+    type: string
+    sql: ${TABLE}.color ;;
   }
 
   dimension: desired_direction {
     type: string
     sql: ${TABLE}.desired_direction ;;
-  }
-
-  dimension: direction_of_change_base_year {
-    type: string
-    sql: ${TABLE}.direction_of_change_base_year ;;
   }
 
   dimension: direction_of_change_yoy {
@@ -43,11 +38,6 @@ view: raw_data_trends {
   dimension: population {
     type: string
     sql: ${TABLE}.population ;;
-  }
-
-  dimension: yoy_trend_change {
-    type: number
-    sql: ${TABLE}.YoY_trend_change ;;
   }
 
   #
