@@ -10,7 +10,7 @@ view: vw_data_trends {
     type: string
     sql: ${field} ;;
     html:
-        <div style="line-height:1;" align="right" >
+        <div style="line-height:1; display: flex" align="right" >
           <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;">{{ field }}</span><br/>
           <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;">{{ fields }}</span><span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;"> מדדים </span>
         </div> ;;
