@@ -5,17 +5,27 @@ view: vw_data_trends {
   ## dimensions:
   #
 
+  # dimension: field_text {
+  #   # label: "אחוז דת עיקרית"
+  #   type: string
+  #   sql: ${field} ;;
+  #   html:
+  #       <div style="line-height:1" align="right">
+  #         <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;" >{{ field }}</span><br/>
+  #         <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;">{{ count }} םםםמדדים</span>
+  #       </div> ;;
+  # }
+
   dimension: field_text {
-    # label: "אחוז דת עיקרית"
     type: string
     sql: ${field} ;;
     html:
-        <div style="line-height:1; display: flex" >
-          <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;">{{ field }}</span><br/>
-          <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;"> מדדים </span>
-          <span style="color:#22282D;font-size:16px;font-weight:700;letter-spacing:0;">{{ fields }}</span>
-        </div> ;;
+      <div style="line-height:0.5" align="right">
+        <span style="color:#22282D;font-size:18px;font-weight:900;letter-spacing:0;">{{ rendered_value }}</span><br/>
+        <span style="color:#22282D;font-size:14px;letter-spacing:0;"> מספר מדדים:<span style="color:#22282D;font-size:14px;letter-spacing:0;"> {{ fields }} </span>
+      </div> ;;
   }
+
 
   dimension: color {
     type: string
