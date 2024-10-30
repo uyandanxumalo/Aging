@@ -38,4 +38,6 @@ explore: vw_population {}
 
 explore: vw_city_district {}
 
+explore: vw_trns_data_trends_v2 {}
+
 explore: vw_data_details {}
