@@ -5,7 +5,7 @@ include: "/views/**/*.view.lkml"
 
 # include all the dashboards
 # -------- change the suffix of the files in dashboards dir
-include: "/Dashboards/**/*.dashboard.lookml"
+include: "/Dashboards/*.dashboard.lookml"
 
 datagroup: aging_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
