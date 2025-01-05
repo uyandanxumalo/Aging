@@ -6,6 +6,7 @@ view: vw_global_comparison {
   #
 
   dimension: country {
+    label: "מדינה"
     type: string
     map_layer_name: countries
     sql: ${TABLE}.country ;;
@@ -55,6 +56,7 @@ view: vw_global_comparison {
   }
 
   dimension: year_string {
+    label: "שנה"
     type: string
     sql: ${TABLE}.year_string ;;
   }

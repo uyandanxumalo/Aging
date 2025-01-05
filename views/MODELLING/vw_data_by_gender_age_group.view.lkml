@@ -26,11 +26,13 @@ view: vw_data_by_gender_age_group {
   }
 
   dimension: metric {
+    label: "קבוצת גיל"
     type: string
     sql: ${TABLE}.metric ;;
   }
 
   dimension: population {
+    label: "אוכלוסייה"
     type: string
     sql: ${TABLE}.population ;;
   }
@@ -59,6 +61,7 @@ view: vw_data_by_gender_age_group {
   }
 
   dimension: year_string {
+    label: "שנה"
     type: string
     sql: ${TABLE}.year_string ;;
   }

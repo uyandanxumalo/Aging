@@ -26,6 +26,7 @@ view: vw_geography {
   }
 
   dimension: population {
+    label: "שם אזור"
     type: string
     sql: ${TABLE}.population ;;
   }
@@ -54,6 +55,7 @@ view: vw_geography {
   }
 
   dimension: year_string {
+    label: "שנה"
     type: string
     sql: ${TABLE}.year_string ;;
   }
