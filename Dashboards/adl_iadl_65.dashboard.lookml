@@ -1,5 +1,5 @@
 - dashboard: adl_iadl_65
-  title: תפקוד ADL / IADL (65 ומעלה)
+  title: תפקוד ADL / IADL (LM 65 ומעלה)
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''
