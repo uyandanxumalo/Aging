@@ -3,6 +3,10 @@ connection: "aging_project"
 # include all the views
 include: "/views/**/*.view.lkml"
 
+# include all the dashboards
+# -------- change the suffix of the files in dashboards dir
+include: "/Dashboards/**/*.dashboard.lookml"
+
 datagroup: aging_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "24 hour"
