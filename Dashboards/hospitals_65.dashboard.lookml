@@ -1,5 +1,5 @@
 ---
-- dashboard: ___65_
+- dashboard: hospitals_65
   title: אשפוזים בבתי חולים (65 ומעלה)
   layout: newspaper
   preferred_viewer: dashboards-next
