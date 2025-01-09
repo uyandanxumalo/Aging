@@ -12,18 +12,6 @@ view: vw_global_comparison {
     sql: ${TABLE}.country ;;
   }
 
-  dimension: countryViz {
-    type: string
-    map_layer_name: countries
-    sql: ${TABLE}.country ;;
-    html:
-    <div id="container"></div>
-<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
-}
-
-
   dimension: field {
     type: string
     sql: ${TABLE}.field ;;
